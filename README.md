@@ -91,7 +91,7 @@ heart_disease_project/
   
    from pyngrok import ngrok
 
-Make sure your REAL token is pasted here
+Make sure your token code is pasted here (NGROK_TOKEN = " ") 
 NGROK_TOKEN = "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
 ngrok.set_auth_token(NGROK_TOKEN)
 
@@ -99,11 +99,14 @@ Launch the app
 public_url = ngrok.connect(8501)
 print(f"Click this link to view your app: {public_url}")
 !streamlit run gui_app.py
-   ```
 
-   Check Ngrok website to get NGROK_TOKEN most of the times you have same local TOKEN CODE which is "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
+  Check Ngrok website to get NGROK_TOKEN most of the times you have same local TOKEN CODE which is "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
 
    5- After applying that it provides you a (Hosted website) click on the Visit you will be able to see the GUI 
+   
+   ```
+
+
 
 
 ## Features
