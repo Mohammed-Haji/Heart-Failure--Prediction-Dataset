@@ -80,6 +80,7 @@ heart_disease_project/
 -- Second Method (easiest way)
 
  **Open Google colabs**:
+ 
    1- create a new Notebook 
    
    2- load the (heart_disease_model.pkl)
