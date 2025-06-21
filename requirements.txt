@@ -1,0 +1,19 @@
+The notebook uses the following Python libraries:
+
+pandas – for data manipulation (import pandas as pd)
+
+numpy – for numerical operations (import numpy as np)
+
+matplotlib.pyplot – for plotting (import matplotlib.pyplot as plt)
+
+seaborn – for advanced data visualization (import seaborn as sns)
+
+warnings – for handling warning messages (import warnings)
+
+sklearn.linear_model – for logistic regression (from sklearn.linear_model import LogisticRegression)
+
+sklearn.metrics – for evaluation metrics (accuracy_score, classification_report, confusion_matrix)
+
+sklearn.model_selection – for data splitting (train_test_split)
+
+sklearn.preprocessing – for feature scaling (StandardScaler)
