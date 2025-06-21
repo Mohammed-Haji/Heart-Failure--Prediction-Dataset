@@ -91,11 +91,11 @@ heart_disease_project/
   
    from pyngrok import ngrok
 
-# Make sure your REAL token is pasted here
+Make sure your REAL token is pasted here
 NGROK_TOKEN = "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
 ngrok.set_auth_token(NGROK_TOKEN)
 
-# Launch the app
+Launch the app
 public_url = ngrok.connect(8501)
 print(f"Click this link to view your app: {public_url}")
 !streamlit run gui_app.py
