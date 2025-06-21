@@ -58,7 +58,9 @@ heart_disease_project/
 - Real-time prediction with probability scores
 - User-friendly visualization of results
 
-## How to Run
+## How to Run 
+
+-- First Method 
 
 1. **Data Preprocessing**:
    ```bash
@@ -75,6 +77,20 @@ heart_disease_project/
    ```bash
    streamlit run gui_app.py
    ```
+-- Second Method (easiest way)
+
+ **Open Google colabs**:
+   1- create a new Notebook 
+   
+   2- load the (heart_disease_model.pkl)
+  
+   3- Go to Files click on the Upload to session storage then upload the Heart.csv file to load the whole dataset 
+
+   4- ![alt text](image.png)
+   ```
+
+
+
 
 ## Features
 - Clean, modular code structure
