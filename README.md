@@ -125,7 +125,7 @@ print(f"Click this link to view your app: {public_url}")
 - streamlit
 - pickle
 
-## Model Details (Data Sets Name)
+## Model Details (Dataset Names)
 The Logistic Regression model uses 13 medical features to predict heart disease:
 1. Age
 2. Sex
