@@ -141,6 +141,4 @@ The Logistic Regression model uses 13 medical features to predict heart disease:
 12. Number of major vessels
 13. Thalassemia
 
-## Disclaimer
-This application is for educational purposes only and should not replace professional medical advice. Always consult healthcare professionals for medical decisions.
 
