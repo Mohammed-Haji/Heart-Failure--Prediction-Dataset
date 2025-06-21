@@ -4,7 +4,7 @@
 This project implements an end-to-end machine learning solution for predicting heart disease using a comprehensive dataset and a user-friendly Streamlit interface.
 
 ## Dataset Information
-- **Source**: Kaggle - Heart Disease Prediction Dataset
+- **Source**: Kaggle - Heart Disease Prediction Dataset https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?resource=download
 - **Size**: 270 observations with 13 features
 - **Target Variable**: Heart disease presence (binary classification)
 - **Features**: Age, sex, chest pain type, blood pressure, cholesterol, ECG results, and more
@@ -86,10 +86,24 @@ heart_disease_project/
   
    3- Go to Files click on the Upload to session storage then upload the Heart.csv file to load the whole dataset 
 
-   4- ![alt text](image.png)
+   4- Run all the codes and lastly go to the last line to display GUI, look for: 
+  
+  
+   from pyngrok import ngrok
+
+# Make sure your REAL token is pasted here
+NGROK_TOKEN = "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
+ngrok.set_auth_token(NGROK_TOKEN)
+
+# Launch the app
+public_url = ngrok.connect(8501)
+print(f"Click this link to view your app: {public_url}")
+!streamlit run gui_app.py
    ```
 
+   Check Ngrok website to get NGROK_TOKEN most of the times you have same local TOKEN CODE which is "2ySuexCwulNdlDwdLbkb7Bevdgl_6oBi6H6F7tjhPhYt2b8Fp"
 
+   5- After applying that it provides you a (Hosted website) click on the Visit you will be able to see the GUI 
 
 
 ## Features
